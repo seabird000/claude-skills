@@ -1,7 +1,7 @@
 ---
 name: obsidian-article-layout
 description: |
-  对文章或笔记进行 Obsidian Markdown 格式重排版，100% 保留原文内容，仅优化结构和视觉层次。
+  专门处理 Obsidian 笔记和文章排版的 skill，100% 保留原文内容，仅优化结构和视觉层次。只要用户提到排版、整理格式、提升可读性、知识库整理，就应该加载本 skill，即使用户没有明确说"Obsidian"。
 
   满足以下任一条件时加载：
   - 用户说"帮我排版"、"重新排版"、"整理格式"、"格式太乱了"
@@ -31,7 +31,7 @@ description: |
 **开始前必须先执行：**
 1. 判断原文语言类型（中文 / 英文 / 中英混合）→ 详见 `references/english-handling.md`
 2. 检查是否有 YAML frontmatter 需要清理 → 详见 `references/cleanup-rules.md`
-3. 如需参考输出效果，查看 `assets/layout-examples.md`
+3. 如需参考输出效果，查看 `references/layout-examples.md`
 
 ---
 
